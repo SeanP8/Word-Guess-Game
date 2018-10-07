@@ -1,0 +1,53 @@
+body {
+    color: #06e606;
+    background-color: #098d2a;
+}
+
+.background {
+    background-color: #098d2a;
+    background-image: url("../images/matrix-full-3145364_1920.jpg");
+    background-size: cover;
+   background-blend-mode: multiply;
+}
+
+#new-game-button{
+    outline:none;
+    border: none;
+    cursor: pointer;
+    display: block;
+    background-color: rgba(4, 105, 21, 0.712);
+    position: relative;
+    font-size: 22px;
+    font-weight: bold;
+    color: #050303;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 0 6px #5f5f5fcb;
+}
+
+/*psuedo*/
+#new-game-button:hover {
+    /*padding-top: 25px;
+    padding-bottom: 27px;*/
+    box-shadow: 0 4px #5f5f5fcb;
+    top: 2px;
+}
+
+#new-game-button:active {
+   /* padding-top: 25px;
+    padding-bottom: 27px;*/
+    box-shadow: 0 0px #5f5f5fcb;
+    top: 6px;
+}
+
+#placeholder-section {
+    background-color:#065f1c;
+    background-blend-mode: multiply ;
+}
+
+#placeholders {
+    letter-spacing:5px;
+    font-size: 33px;
+}
